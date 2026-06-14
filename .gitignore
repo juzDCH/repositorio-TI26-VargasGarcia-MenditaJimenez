@@ -1,0 +1,49 @@
+# ── Entorno virtual ──────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Outputs de notebooks (mantiene el código, borra resultados)
+# Descomenta la siguiente línea si quieres subir los notebooks sin outputs:
+# *.ipynb
+
+# ── Sistema operativo ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editores e IDEs ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Archivos temporales ───────────────────────────────────────
+*.log
+*.tmp
+*.cache
+
+# ── Datos procesados generados automáticamente ───────────────
+# (se regeneran ejecutando el Notebook 02 y 03)
+data/processed/X_train.csv
+data/processed/X_test.csv
+data/processed/y_train.csv
+data/processed/y_test.csv
+data/processed/metricas_rf.json
+
+# El dataset principal SÍ se sube
+# !data/processed/Telco_customer_churn.csv  ← ya incluido por defecto
